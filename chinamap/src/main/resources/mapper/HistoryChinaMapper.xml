@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+
+<mapper namespace="com.history.chinamap.dao.MapDao" >
+    <resultMap id="geometryModelResult" type="com.history.chinamap.model.GeometryModel">
+        <result property="gId" column="gid" jdbcType="BIGINT"/>
+        <result property="namePy" column="name_py" jdbcType="VARCHAR"/>
+        <result property="nameCh" column="name_ch" jdbcType="VARCHAR"/>
+        <result property="nameFt" column="name_ft" jdbcType="VARCHAR"/>
+        <result property="presLoc" column="pres_loc" jdbcType="VARCHAR"/>
+        <result property="typePy" column="type_py" jdbcType="VARCHAR"/>
+        <result property="typeCh" column="type_ch" jdbcType="VARCHAR"/>
+        <result property="levRank" column="lev_rank" jdbcType="VARCHAR"/>
+        <result property="begYr" column="beg_yr" jdbcType="BIGINT"/>
+        <result property="begRule" column="beg_rule" jdbcType="VARCHAR"/>
+        <result property="endYr" column="end_yr" jdbcType="BIGINT"/>
+        <result property="endRule" column="end_rule" jdbcType="VARCHAR"/>
+        <result property="geoSrc" column="geo_src" jdbcType="VARCHAR"/>
+        <result property="compiler" column="compiler" jdbcType="VARCHAR"/>
+        <result property="gecomplr" column="gecomplr" jdbcType="VARCHAR"/>
+        <result property="checker" column="checker" jdbcType="VARCHAR"/>
+        <result property="entDate" column="ent_date" jdbcType="VARCHAR"/>
+        <result property="begChgTy" column="beg_chg_ty" jdbcType="VARCHAR"/>
+        <result property="endChgTy" column="end_chg_ty" jdbcType="VARCHAR"/>
+        <result property="geometry" column="geom" typeHandler="com.history.chinamap.mybatis.GeometryTypeHandler"/>
+
+    </resultMap>
+
+    <sql id="CNTY_PTS">
+        v6_time_cnty_pts_utf_wgs84_py
+    </sql>
+
+    <sql id="PREF_PTS">
+        v6_time_pref_pts_utf_wgs84_py
+    </sql>
+
+    <sql id="PREF_PGN">
+        v6_time_pref_pgn_utf_wgs84_py
+    </sql>
+
+    <sql id="BASE_COLUMN">
+        gid,name_py,name_ch,name_ft,pres_loc,type_py,type_ch,lev_rank,beg_yr,beg_rule,end_yr,end_rule,geo_src,compiler,gecomplr,checker,ent_date,beg_chg_ty,end_chg_ty,geom
+    </sql>
+
+    <select id="getCntyPoint" resultMap="geometryModelResult">
+        SELECT
+        <include refid="BASE_COLUMN"></include>
+        FROM
+        <include refid="CNTY_PTS"/>
+        WHERE gid=#{gId} LIMIT 1
+    </select>
+
+    <select id="getPrefPolygon" resultMap="geometryModelResult">
+        SELECT
+        <include refid="BASE_COLUMN"></include>
+        FROM
+        <include refid="PREF_PGN"/>
+        WHERE gid=#{gId} LIMIT 1
+    </select>
+
+    <select id="getPrefPoint" resultMap="geometryModelResult">
+        SELECT
+        <include refid="BASE_COLUMN"></include>
+        FROM
+        <include refid="PREF_PTS"/>
+        WHERE gid=#{gId} LIMIT 1
+    </select>
+</mapper>
