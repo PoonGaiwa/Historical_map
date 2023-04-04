@@ -106,19 +106,40 @@
             <version>1.1.9</version>
         </dependency>
         <!-- 解析几何geometry对象用的-->
-        <dependency>
-            <groupId>com.vividsolutions</groupId>
-            <artifactId>jts</artifactId>
-            <version>1.13</version>
-        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>com.vividsolutions</groupId>-->
+<!--            <artifactId>jts</artifactId>-->
+<!--            <version>1.13</version>-->
+<!--        </dependency>-->
         <!--引入alibaba的json处理jar包-->
         <dependency>
             <groupId>com.alibaba</groupId>
             <artifactId>fastjson</artifactId>
             <version>1.2.47</version>
         </dependency>
+        <!-- 引入GeoJson库-->
+        <dependency>
+            <groupId>org.geotools</groupId>
+            <artifactId>gt-geojson</artifactId>
+            <version>24.2</version>
+        </dependency>
     </dependencies>
 
+    <repositories>
+        <repository>
+            <id>osgeo</id>
+            <name>OSGeo Release Repository</name>
+            <url>https://repo.osgeo.org/repository/release/</url>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+            <releases>
+                <enabled>true</enabled>
+                <!--不加如下updatePolicy会报错：resolution will not be reattempted until the update interval of XXX has elapsed or updates are force-->
+                <updatePolicy>always</updatePolicy>
+            </releases>
+        </repository>
+    </repositories>
     <build>
         <resources>
             <resource>

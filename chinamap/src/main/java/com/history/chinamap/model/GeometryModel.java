@@ -1,6 +1,6 @@
 package com.history.chinamap.model;
 
-import com.vividsolutions.jts.geom.Geometry;
+import org.locationtech.jts.geom.Geometry;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
@@ -93,68 +93,68 @@ public class GeometryModel {
     }
 
 
-    public void setGid(Integer gId) {
-        this.gId=gId;
-    }
-    public void setNamePy(String namePy) {
-        this.namePy = namePy;
-    }
-    public void setNameCh(String nameCh) {
-        this.nameCh=nameCh;
-    }
-    public void setBegChgTy(String begChgTy) {
-        this.begChgTy = begChgTy;
-    }
-    public void setBegRule(String begRule) {
-        this.begRule = begRule;
-    }
-    public void setBegYr(Integer begYr) {
-        this.begYr = begYr;
-    }
-    public void setChecker(String checker) {
-        this.checker = checker;
-    }
-    public void setCompiler(String compiler) {
-        this.compiler = compiler;
-    }
-    public void setEndChgTy(String endChgTy) {
-        this.endChgTy = endChgTy;
-    }
-    public void setEndYr(Integer endYr) {
-        this.endYr = endYr;
-    }
-    public void setEndRule(String endRule) {
-        this.endRule = endRule;
-    }
-    public void setEntDate(String entDate) {
-        this.entDate = entDate;
-    }
-    public void setGecomplr(String gecomplr) {
-        this.gecomplr = gecomplr;
-    }
-    public void setGeoSrc(String geoSrc) {
-        this.geoSrc = geoSrc;
-    }
-    public void setgId(Integer gId) {
-        this.gId = gId;
-    }
-    public void setLevRank(String levRank) {
-        this.levRank = levRank;
-    }
-    public void setNameFt(String nameFt) {
-        this.nameFt = nameFt;
-    }
-    public void setPresLoc(String presLoc) {
-        this.presLoc = presLoc;
-    }
-    public void setTypeCh(String typeCh) {
-        this.typeCh = typeCh;
-    }
-    public void setTypePy(String typePy) {
-        this.typePy = typePy;
-    }
-    public void setGeometry(Geometry geometry) {
-        this.geometry=geometry;
-    }
+//    public void setGid(Integer gId) {
+//        this.gId=gId;
+//    }
+//    public void setNamePy(String namePy) {
+//        this.namePy = namePy;
+//    }
+//    public void setNameCh(String nameCh) {
+//        this.nameCh=nameCh;
+//    }
+//    public void setBegChgTy(String begChgTy) {
+//        this.begChgTy = begChgTy;
+//    }
+//    public void setBegRule(String begRule) {
+//        this.begRule = begRule;
+//    }
+//    public void setBegYr(Integer begYr) {
+//        this.begYr = begYr;
+//    }
+//    public void setChecker(String checker) {
+//        this.checker = checker;
+//    }
+//    public void setCompiler(String compiler) {
+//        this.compiler = compiler;
+//    }
+//    public void setEndChgTy(String endChgTy) {
+//        this.endChgTy = endChgTy;
+//    }
+//    public void setEndYr(Integer endYr) {
+//        this.endYr = endYr;
+//    }
+//    public void setEndRule(String endRule) {
+//        this.endRule = endRule;
+//    }
+//    public void setEntDate(String entDate) {
+//        this.entDate = entDate;
+//    }
+//    public void setGecomplr(String gecomplr) {
+//        this.gecomplr = gecomplr;
+//    }
+//    public void setGeoSrc(String geoSrc) {
+//        this.geoSrc = geoSrc;
+//    }
+//    public void setgId(Integer gId) {
+//        this.gId = gId;
+//    }
+//    public void setLevRank(String levRank) {
+//        this.levRank = levRank;
+//    }
+//    public void setNameFt(String nameFt) {
+//        this.nameFt = nameFt;
+//    }
+//    public void setPresLoc(String presLoc) {
+//        this.presLoc = presLoc;
+//    }
+//    public void setTypeCh(String typeCh) {
+//        this.typeCh = typeCh;
+//    }
+//    public void setTypePy(String typePy) {
+//        this.typePy = typePy;
+//    }
+//    public void setGeometry(Geometry geometry) {
+//        this.geometry=geometry;
+//    }
 
 }

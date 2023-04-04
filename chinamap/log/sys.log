@@ -2,3 +2,17 @@
 2023-04-03 22:28:43,620 INFO (SpringApplication.java:646)- No active profile set, falling back to default profiles: default
 2023-04-03 22:29:26,624 INFO (StartupInfoLogger.java:50)- Starting ChinamapApplication on Gaiwa with PID 26780 (D:\HTML_Project\CH_map\chinamap\target\classes started by Administrator in D:\HTML_Project\CH_map\chinamap)
 2023-04-03 22:29:26,626 INFO (SpringApplication.java:646)- No active profile set, falling back to default profiles: default
+2023-04-04 21:27:51,297 INFO (StartupInfoLogger.java:50)- Starting ChinamapApplication on Gaiwa with PID 25996 (D:\HTML_Project\CH_map\chinamap\target\classes started by Administrator in D:\HTML_Project\CH_map\chinamap)
+2023-04-04 21:27:51,299 INFO (SpringApplication.java:646)- No active profile set, falling back to default profiles: default
+2023-04-04 21:53:56,037 INFO (StartupInfoLogger.java:50)- Starting ChinamapApplication on Gaiwa with PID 16096 (D:\HTML_Project\CH_map\chinamap\target\classes started by Administrator in D:\HTML_Project\CH_map\chinamap)
+2023-04-04 21:53:56,039 INFO (SpringApplication.java:646)- No active profile set, falling back to default profiles: default
+2023-04-04 21:54:17,720 INFO (StartupInfoLogger.java:50)- Starting ChinamapApplication on Gaiwa with PID 26752 (D:\HTML_Project\CH_map\chinamap\target\classes started by Administrator in D:\HTML_Project\CH_map\chinamap)
+2023-04-04 21:54:17,722 INFO (SpringApplication.java:646)- No active profile set, falling back to default profiles: default
+2023-04-04 21:54:55,031 INFO (StartupInfoLogger.java:59)- Started ChinamapApplication in 37.573 seconds (JVM running for 38.207)
+2023-04-04 22:00:05,378 INFO (StartupInfoLogger.java:50)- Starting ChinamapApplication on Gaiwa with PID 18988 (D:\HTML_Project\CH_map\chinamap\target\classes started by Administrator in D:\HTML_Project\CH_map\chinamap)
+2023-04-04 22:00:05,380 INFO (SpringApplication.java:646)- No active profile set, falling back to default profiles: default
+2023-04-04 22:00:42,204 INFO (StartupInfoLogger.java:59)- Started ChinamapApplication in 37.09 seconds (JVM running for 37.731)
+2023-04-04 22:06:20,552 INFO (StartupInfoLogger.java:50)- Starting ChinamapApplication on Gaiwa with PID 26448 (D:\HTML_Project\CH_map\chinamap\target\classes started by Administrator in D:\HTML_Project\CH_map\chinamap)
+2023-04-04 22:06:20,555 INFO (SpringApplication.java:646)- No active profile set, falling back to default profiles: default
+2023-04-04 22:06:57,887 INFO (StartupInfoLogger.java:59)- Started ChinamapApplication in 37.603 seconds (JVM running for 38.238)
+2023-04-04 22:07:06,012 INFO (MapController.java:73)- 入参类别：prefpgn，起始时间：-5000，截至时间：-221
