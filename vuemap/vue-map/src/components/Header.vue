@@ -8,13 +8,12 @@
           <span><router-link to="/">历史地理</router-link></span>
         </el-menu-item>
         <el-menu-item index="2">
-          <span><router-link to="/specialmap">专题地图</router-link></span>
+          <span><router-link to="/specialmap">测试跨域和后端交互</router-link></span>
         </el-menu-item>
         <el-menu-item index="3">
-          <span><router-link to="/helperdocument">帮助文档</router-link></span>
+          <span><router-link to="/helperdocument">测试地图元素导入</router-link></span>
         </el-menu-item>
       </el-menu>
-
     </el-col>
   </el-row>
 </template>
