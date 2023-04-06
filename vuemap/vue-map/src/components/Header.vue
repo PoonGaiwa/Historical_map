@@ -39,4 +39,12 @@
   border-radius: 4px;
   min-height: 36px;
 }
+
+a {
+  text-decoration: none;
+}
+
+.router-link-active {
+  text-decoration: none;
+}
 </style>
