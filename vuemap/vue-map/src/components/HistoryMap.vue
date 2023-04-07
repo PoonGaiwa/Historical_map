@@ -77,7 +77,7 @@ export default {
                     this.map.removeLayer(this.map._layers[a])
                 }
             };
-            var urlbase = window.g.BASE_URL
+            var urlbase = window.g.BASE_URL;
             var dynastylist = this.treedata[0]['children']
             //定义黑点
             var blackIcon = L.icon({

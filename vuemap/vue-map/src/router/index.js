@@ -12,14 +12,14 @@ export default new Router({
       path: '/',
       name: 'historymap',
       component: HistoryMap
-    },{
+    }, {
       path: '/specialmap',
       name: 'specialmap',
       component: SpecialMap
-    },{
-           path:'/helperdocument',
-           name:'helperdocument',
-           component:HelperDocument
+    }, {
+      path: '/helperdocument',
+      name: 'helperdocument',
+      component: HelperDocument
     }
   ]
 })

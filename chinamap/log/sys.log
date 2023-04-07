@@ -1,3 +1,30 @@
-2023-04-06 16:47:51,610 INFO (StartupInfoLogger.java:50)- Starting ChinamapApplication on Gaiwa with PID 22512 (D:\HTML_Project\CH_map\chinamap\target\classes started by Administrator in D:\HTML_Project\CH_map\chinamap)
-2023-04-06 16:47:51,615 INFO (SpringApplication.java:646)- No active profile set, falling back to default profiles: default
-2023-04-06 16:48:29,129 INFO (StartupInfoLogger.java:59)- Started ChinamapApplication in 37.825 seconds (JVM running for 38.547)
+2023-04-07 00:01:46,072 INFO (StartupInfoLogger.java:50)- Starting ChinamapApplication on Gaiwa with PID 29896 (D:\HTML_Project\CH_map\chinamap\target\classes started by Administrator in D:\HTML_Project\CH_map\chinamap)
+2023-04-07 00:01:46,077 INFO (SpringApplication.java:646)- No active profile set, falling back to default profiles: default
+2023-04-07 00:02:23,369 INFO (StartupInfoLogger.java:59)- Started ChinamapApplication in 37.57 seconds (JVM running for 38.271)
+2023-04-07 11:42:42,448 INFO (StartupInfoLogger.java:50)- Starting ChinamapApplication on Gaiwa with PID 2428 (D:\HTML_Project\CH_map\chinamap\target\classes started by Administrator in D:\HTML_Project\CH_map\chinamap)
+2023-04-07 11:42:42,450 INFO (SpringApplication.java:646)- No active profile set, falling back to default profiles: default
+2023-04-07 11:43:20,439 INFO (StartupInfoLogger.java:59)- Started ChinamapApplication in 38.264 seconds (JVM running for 38.956)
+2023-04-07 11:44:50,040 INFO (StartupInfoLogger.java:50)- Starting ChinamapApplication on Gaiwa with PID 26064 (D:\HTML_Project\CH_map\chinamap\target\classes started by Administrator in D:\HTML_Project\CH_map\chinamap)
+2023-04-07 11:44:50,042 INFO (SpringApplication.java:646)- No active profile set, falling back to default profiles: default
+2023-04-07 11:45:27,347 INFO (StartupInfoLogger.java:59)- Started ChinamapApplication in 37.578 seconds (JVM running for 38.218)
+2023-04-07 11:45:27,604 INFO (MapController.java:74)- 入参类别：prefpgn，起始时间：-5000，截至时间：-221
+2023-04-07 11:45:39,652 INFO (MapController.java:74)- 入参类别：prefpgn，起始时间：-220，截至时间：-202
+2023-04-07 11:46:27,481 INFO (StartupInfoLogger.java:50)- Starting ChinamapApplication on Gaiwa with PID 23888 (D:\HTML_Project\CH_map\chinamap\target\classes started by Administrator in D:\HTML_Project\CH_map\chinamap)
+2023-04-07 11:46:27,483 INFO (SpringApplication.java:646)- No active profile set, falling back to default profiles: default
+2023-04-07 11:47:04,658 INFO (StartupInfoLogger.java:59)- Started ChinamapApplication in 37.446 seconds (JVM running for 38.082)
+2023-04-07 11:47:08,703 INFO (MapController.java:74)- 入参类别：prefpgn，起始时间：-5000，截至时间：-221
+2023-04-07 11:47:13,326 INFO (MapController.java:74)- 入参类别：prefpts，起始时间：-5000，截至时间：-221
+2023-04-07 11:47:18,249 INFO (MapController.java:74)- 入参类别：prefpgn，起始时间：-220，截至时间：-202
+2023-04-07 11:47:25,034 INFO (MapController.java:74)- 入参类别：prefpgn，起始时间：1645，截至时间：1840
+2023-04-07 11:47:32,863 INFO (MapController.java:74)- 入参类别：prefpts，起始时间：1645，截至时间：1840
+2023-04-07 11:47:35,592 INFO (MapController.java:74)- 入参类别：cntypts，起始时间：1645，截至时间：1840
+2023-04-07 11:47:39,435 INFO (MapController.java:74)- 入参类别：prefpts，起始时间：1645，截至时间：1840
+2023-04-07 11:47:39,831 INFO (MapController.java:74)- 入参类别：prefpts，起始时间：1645，截至时间：1840
+2023-04-07 11:47:39,839 INFO (MapController.java:74)- 入参类别：cntypts，起始时间：1645，截至时间：1840
+2023-04-07 11:47:43,954 INFO (MapController.java:74)- 入参类别：prefpts，起始时间：1645，截至时间：1840
+2023-04-07 11:47:50,058 INFO (MapController.java:74)- 入参类别：prefpgn，起始时间：-220，截至时间：-202
+2023-04-07 11:47:50,269 INFO (MapController.java:74)- 入参类别：prefpts，起始时间：-220，截至时间：-202
+2023-04-07 11:47:50,485 INFO (MapController.java:74)- 入参类别：prefpgn，起始时间：-220，截至时间：-202
+2023-04-07 11:47:54,910 INFO (MapController.java:74)- 入参类别：prefpts，起始时间：-220，截至时间：-202
+2023-04-07 11:47:54,914 INFO (MapController.java:74)- 入参类别：cntypts，起始时间：-220，截至时间：-202
+2023-04-07 11:47:55,115 INFO (MapController.java:74)- 入参类别：prefpgn，起始时间：-220，截至时间：-202
